@@ -28,7 +28,7 @@ Next you need to edit the #defines to configure the program:
 | OBS_WEBSOCKET_IP | Here you need to enter the IP of the computer that obs is running on |
 | OBS_WEBSOCKET_PORT | Here you can specify the port. 4444 is the obs-websocket default port |
 | OBS_WEBSOCKET_PASS | This is currently not working |
-| OBS_SCENE_NAME | Here you need to enter the Substring that the tallylight should listen for. As an Example "Cam 1"|
+| OBS_SOURCE_NAME | Here you need to enter the Source Name that the tallylight should listen for. As an Example "Cam 1"|
 
 Now you can flash the programm onto the esp and it should connect to your WIFI and OBS instance.
 
